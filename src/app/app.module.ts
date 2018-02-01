@@ -7,6 +7,8 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { ReunionesPage } from '../pages/reuniones/reuniones';
 import { AmigosPage } from '../pages/amigos/amigos';
+import { NewReunionPage } from '../pages/new-reunion/new-reunion';
+import { NewAmigoPage } from '../pages/new-amigo/new-amigo';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +19,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     ReunionesPage,
-    AmigosPage
+    AmigosPage,
+    NewAmigoPage,
+    NewReunionPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +33,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ListPage,
     ReunionesPage,
-    AmigosPage
+    AmigosPage,
+    NewReunionPage,
+    NewAmigoPage
   ],
   providers: [
     StatusBar,

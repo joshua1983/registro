@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-import { NewReunionPage } from '../new-reunion/new-reunion';
-import { NewAmigoPage } from '../new-amigo/new-amigo';
-
 /**
- * Generated class for the ReunionesPage page.
+ * Generated class for the NewReunionPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -13,20 +10,16 @@ import { NewAmigoPage } from '../new-amigo/new-amigo';
 
 @IonicPage()
 @Component({
-  selector: 'page-reuniones',
-  templateUrl: 'reuniones.html',
+  selector: 'page-new-reunion',
+  templateUrl: 'new-reunion.html',
 })
-export class ReunionesPage {
+export class NewReunionPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ReunionesPage');
-  }
-
-  nuevaReunion(){
-    this.navCtrl.push(NewReunionPage);
+    console.log('ionViewDidLoad NewReunionPage');
   }
 
 }

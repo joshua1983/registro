@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NewAmigoPage } from '../new-amigo/new-amigo';
 
 /**
  * Generated class for the AmigosPage page.
@@ -25,6 +26,10 @@ export class AmigosPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad AmigosPage');
+  }
+
+  nuevoAmigo(){
+    this.navCtrl.push(NewAmigoPage);
   }
 
 }

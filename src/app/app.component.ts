@@ -7,6 +7,8 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { ReunionesPage } from '../pages/reuniones/reuniones';
 import { AmigosPage } from '../pages/amigos/amigos';
+import { NewAmigoPage } from '../pages/new-amigo/new-amigo';
+import { NewReunionPage } from '../pages/new-reunion/new-reunion';
 
 @Component({
   templateUrl: 'app.html'
