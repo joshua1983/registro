@@ -9,6 +9,7 @@ import { ReunionesPage } from '../pages/reuniones/reuniones';
 import { AmigosPage } from '../pages/amigos/amigos';
 import { NewAmigoPage } from '../pages/new-amigo/new-amigo';
 import { NewReunionPage } from '../pages/new-reunion/new-reunion';
+import { ConfiguracionPage } from '../pages/configuracion/configuracion';
 
 @Component({
   templateUrl: 'app.html'
@@ -27,7 +28,8 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Amigos', component: AmigosPage },
-      { title: 'Reuniones', component: ReunionesPage }
+      { title: 'Reuniones', component: ReunionesPage },
+      { title: 'Opciones', component: ConfiguracionPage }
     ];
 
   }

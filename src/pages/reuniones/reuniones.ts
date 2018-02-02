@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { NewReunionPage } from '../new-reunion/new-reunion';
-import { NewAmigoPage } from '../new-amigo/new-amigo';
+
 
 /**
  * Generated class for the ReunionesPage page.
@@ -17,8 +17,10 @@ import { NewAmigoPage } from '../new-amigo/new-amigo';
   templateUrl: 'reuniones.html',
 })
 export class ReunionesPage {
+  fechaHoy: String;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.fechaHoy = new Date().toISOString();
   }
 
   ionViewDidLoad() {
